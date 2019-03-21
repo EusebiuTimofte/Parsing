@@ -1,4 +1,5 @@
 # Parsing
 
-This program is a XML file parser. It reads the content of a XML file and stores in memory all the tags , texts and relations between them. The element structure represents a tag , it has a name, attributes , text(value) and a pointer to the tags in it (child tags).
-The program also allows you to find an tag by it's name and to write what is in memory into a XML file.
+This program is a XML file parser. It reads the content of a XML file and stores all the elements in memory as a tree structure . An element contains a tag , attributes , text(value) and a pointer to the elements in it (child elements).
+The program also allows you to find an element by it's tag name or by value , to write what is in memory into a XML file , to add , delete or edit an element, to show the path from root to an element or the rest of tree.
+
