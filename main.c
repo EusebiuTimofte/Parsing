@@ -592,6 +592,11 @@ void find_numberOfElementToSearch(struct element* el,int *nr)
 }
 
 void show_restoftree(struct element *aux, int tab) {
+    if( ! aux)
+    {
+        printf("You first need to find an element.\n");
+        return;
+    }
     int j;
     int i;
     for(j = 0; j < tab; j++) {
